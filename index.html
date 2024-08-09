@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix - Watch TV shows, Series, Movies</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+        <style>
+            body{
+                background-image: url(images/background-netflix.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .left{
+                margin-top: 15px;
+            }
+            .container{
+                background-color: rgba(0, 0, 0, 0.6);
+                height: 600px;
+                
+            }
+            .logo{
+                color: rgb(229, 9, 20);
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            }
+            .lang{
+                border: 0.5px solid #fff;
+                color: #fff;
+                padding: 5px;
+                justify-content: space-between;
+            }
+            .signin{
+                border: 1px solid red;
+                color: #fff;
+                background-color: red;
+                font-weight: bold;
+                font-family: sans-serif;
+                padding: 5px;
+                margin-left: 10px;
+            }
+            header{
+                display: flex;
+                justify-content: space-around;
+                padding: 10px;
+                color: #fff;
+            }
+            section{
+                margin-top: 150px;
+                color: white;
+                text-align: center;
+            }
+            .text1{
+                font-weight: bold;
+                font-size: 60px;
+            }
+            .text2{
+                font-size: 30px;
+            }
+            .text3{
+                font-size: 25px;
+                margin-bottom: 50px;
+            }
+            .mail{
+                color: gray;
+                border: 1px solid;
+                width: 400px;
+                display: inline-block;
+                text-align: left;
+                
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+            .btn-get{
+                font-weight: bold;
+                border: 1px solid red;
+                font-size: 20px;
+                background-color: red;
+                padding: 15px;
+                
+            }
+            main{
+                margin-top: 30px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <header>
+                <span class="logo">
+                    NETFLIX
+                </span>
+                <span class="left">
+                    <SPAN class="lang">
+                        <span class="bi bi-translate"></span>
+                        <span>ENGLISH</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </SPAN>
+                    <SPAN class="signin">signin</SPAN>
+                </span>
+            </header>
+            <section>
+                <div class="text1">Unlimited movies, TV shows, and more</div>
+                <div class="text2">Watch anywhere. Cancel anytime.</div>
+                <div class="text3">Ready to watch? Enter your email to create or restart your membership.</div>
+                <main>
+                    <span class="mail">Email Address</span>
+                    <span class="btn-get">Get Started <span class="bi bi-chevron-right"></span></span>
+                </main>
+            </section>
+        </div>
+    </body>
+</html>
